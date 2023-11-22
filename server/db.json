@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password1"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "password2"
+    },
+    {
+      "email": "newuser@gmail.com",
+      "password": "$2a$10$XgMHNWbL3Z85nZKa6SGptego.RMP6unfjX7ZWhQtrGxITyXBCxzXi",
+      "id": 3
+    },
+    {
+      "email": "newuser2@gmail.com",
+      "password": "$2a$10$cb6woo.L.aV6boTQzsuAIu5wHA.jPMGw3ALRqh2PYrwUud0biS5lW",
+      "id": 4
+    },
+    {
+      "email": "gagan@gmail.com",
+      "password": "$2a$10$fV.UoQ7mhmlTsk0rBX19wOrugpzxE2GVMOrpagU7GmvgRbqSaeQzS",
+      "id": 5
+    }
+  ],
+  "todos": [
+    {
+      "id": "ad29131c-2f72-4def-a8b7-5d088a711f27",
+      "title": "First Todo",
+      "description": "This is the first todo item.",
+      "author": "user1",
+      "dateCreated": "2023-03-01T09:00:00.000Z",
+      "complete": false,
+      "dateCompleted": null
+    },
+    {
+      "Title": "Newtitle",
+      "description": "newdescription",
+      "author": "newauthor",
+      "id": "0DD48y0",
+      "complete": false
+    },
+    {
+      "title": "ux",
+      "description": "assgn",
+      "author": "bh",
+      "dateCreated": 1700389223878,
+      "complete": false,
+      "id": "ZngUvIF"
+    }
+  ]
+}

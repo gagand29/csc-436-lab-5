@@ -1,0 +1,177 @@
+/* Reset default margin and padding for all elements */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Set the font for the entire page */
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Background and spacing for the entire body */
+body {
+  background: #eee;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #f5ba13;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Header h1 styles */
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+/* Center aligning headers */
+h1, h2 {
+  text-align: center;
+}
+
+/* Add a wrapper for the main content */
+.main-content {
+  padding-bottom: 2.5rem; /* Footer height */
+  min-height: 100vh; /* Full viewport height */
+  margin-bottom: -2.5rem; /* Negative margin equal to footer height */
+}
+
+/* Update Footer styles to stick to bottom */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5ba13;
+  text-align: center;
+  height: 2.5rem;
+  display: flex;
+  align-items: center; 
+}
+
+/* Footer paragraph styles */
+footer p {
+  color: #1a1a1a;
+  margin: 0;
+  flex-grow: 1; 
+}
+
+/* Container for centering the login form */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eee; 
+}
+
+/* Login container styles */
+.login-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  width: 300px; 
+  margin: auto; 
+}
+
+/* Login form styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+/* Button Container Styles */
+.button-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Container for centering the registration form */
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee; 
+}
+
+/* Registration form styles */
+.registration-form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  width: 300px; 
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+/* Label styles */
+.registration-form label {
+  margin-bottom: 8px;
+}
+
+/* Button container styles */
+.registration-form .button-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Container for centering the form-container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh; /* Adjust as needed */
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  width: 300px; 
+  margin: auto; 
+  margin-top: 20px;
+}
+
+.list-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.list-container h2 {
+  color: #333;
+}
+
+.list-container ul {
+  list-style-type: none;
+}
+
+.list-container li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-container li p {
+  margin: 0;
+}
